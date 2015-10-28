@@ -111,6 +111,7 @@
             self.selectionStyle = item.selectionStyle;
         self.imageView.image = item.image;
         self.imageView.highlightedImage = item.highlightedImage;
+        self.tintColor = item.tintColor;
     }
     if (self.textLabel.text.length == 0)
         self.textLabel.text = @" ";
