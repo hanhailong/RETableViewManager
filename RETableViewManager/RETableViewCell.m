@@ -103,6 +103,8 @@
     } else {
         RETableViewItem *item = (RETableViewItem *)self.item;
         self.textLabel.text = item.title;
+        self.textLabel.textColor = item.textLabelColor;
+        self.detailTextLabel.textColor = item.detailTextLabelColor;
         self.textLabel.backgroundColor = [UIColor clearColor];
         self.accessoryType = item.accessoryType;
         self.accessoryView = item.accessoryView;
@@ -111,7 +113,6 @@
             self.selectionStyle = item.selectionStyle;
         self.imageView.image = item.image;
         self.imageView.highlightedImage = item.highlightedImage;
-        self.tintColor = item.tintColor;
     }
     if (self.textLabel.text.length == 0)
         self.textLabel.text = @" ";

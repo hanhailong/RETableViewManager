@@ -32,7 +32,8 @@
 @interface RETableViewItem : NSObject
 
 @property (copy, readwrite, nonatomic) NSString *title;
-@property (copy, readwrite, nonatomic) UIColor *tintColor;
+@property (copy, readwrite, nonatomic) UIColor *textLabelColor;
+@property (copy, readwrite, nonatomic) UIColor *detailTextLabelColor;
 @property (strong, readwrite, nonatomic) UIImage *image;
 @property (strong, readwrite, nonatomic) UIImage *highlightedImage;
 @property (assign, readwrite, nonatomic) NSTextAlignment textAlignment;

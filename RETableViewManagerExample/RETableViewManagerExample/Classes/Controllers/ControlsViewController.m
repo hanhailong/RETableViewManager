@@ -316,6 +316,7 @@
         [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
     }];
     buttonItem.textAlignment = NSTextAlignmentCenter;
+    buttonItem.textLabelColor = [UIColor redColor];
     [section addItem:buttonItem];
     
     return section;
