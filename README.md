@@ -1,3 +1,5 @@
+#2015-12-17号 给RETableViewItem添加textLabelColor和detailTextLabelColor支持
+
 # RETableViewManager
 
 __Powerful data driven content manager for UITableView.__
